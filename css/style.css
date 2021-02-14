@@ -122,7 +122,7 @@ body{
 
 .surajContainer{
     margin: 0 auto;
-    width: 1470px;
+    max-width: 1470px;
 }
 
 
