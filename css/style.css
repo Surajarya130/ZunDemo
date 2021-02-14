@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+p{
+    color: #434343;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #292929;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+}
+
+.workOrderManagement{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textBox{
+    max-width: 80%;
+    margin: 0px auto 20px;
+    line-height: 1.6;
+}
+
+.WorkMgmtText{
+    font-weight: bold;
+    font-size: 21px;
+    color: #E3860D;
+    font-style: normal; 
+    clear: both;
+}
+
+.leftContent{
+    width: 45%;
+    height: auto;
+}
+
+.leftListItems{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightContent{
+    width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftContent h2{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: #292929;
+}
+
+.leftContent p{
+    line-height: 28px;
+    padding-top: 11px;
+    padding-bottom: 20px;
+}
+
+.leftContent ul li{
+    list-style-position: inside;
+    list-style-image:url("../img/listIcon.svg");
+    font-size: 18px;
+    color: #434343;
+    line-height: 35px;
+}
+
+.rightContent img{
+    height: 90%;
+}
+
+.learnMore{
+    font-size: 16px;
+    color: #F15C27;
+    margin-top: 10px;
+}
+
+.useCase{
+    max-width: 90%;
+    margin: 50px auto 50px;
+}
+
+.footerSection{
+    max-width: 100%;
+    margin: 100px auto;
+    box-shadow: 0px -4px 4px rgba(214, 214, 214, 0.25);    
+    padding-top: 50px;
+}
+
+.caseContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 328px;
+    grid-gap: 5em 17.2rem;
+}
+
+.bgArea{
+    max-width: 100%;
+    height: auto;
+    line-height: 26px;
+}
+
+.surajContainer{
+    margin: 0 auto;
+    width: 1470px;
+}
+
+
+.caseContainer > div:nth-child(odd), .caseContainer > div:nth-child(even){
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.caseContainer > div:nth-child(even){
+    justify-content: flex-end;
+}
+
+.textWrapLeft, .textWrapRight{
+    height: 12.5rem;
+    text-align: center;
+    width: 480px;
+    margin-left: 15%;
+    position: absolute;
+    background-color: #FFE6DD;
+}
+
+.textWrapRight{
+    margin-right: 15%;
+    background-color: #FBF2D6;
+}
+
+.bgImg{
+    /* max-width: 100%;
+    height: auto; */
+    filter: brightness(0.4);
+} 
+
+.ucHeading{
+    font-size: 24px;
+    padding: 20px 0 10px;
+    font-weight: bold;
+}
+
+.secLearnMore{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.footer{
+    display: grid;
+    max-width: 90%;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, auto);
+    /* grid-template-columns: auto repeat(3, 1fr) 270px; */
+    grid-auto-rows: auto;
+}
+
+.footer > .footerBlock:not(:first-child){
+    padding: 30px 0 0 30px;
+}
+
+
+.downLoadIcon{
+    display: flex;
+    margin: 30px auto;
+}
+
+.footerTitle{
+    font-weight: bold;
+    color: #292929;
+}
+
+.footerLi{
+    font-size: 16px;
+    color: #686868;
+    padding-top: 16px;
+}
+
+.followUsTitle{
+    padding-top: 30px;
+    font-weight: bold;
+    color: #292929;
+}
+
+.iconSmallImg > img{
+    margin-top: 10px;
+}
+
+.contactCard{
+    max-width: 260px;
+    margin: 0 auto;
+    padding: 30px 30px 30px 30px;
+    height: 325px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;;
+    box-shadow: 1px 4px 21px rgba(254, 183, 158, 0.3);
+}
+
+.contactUsForm .formControl{
+    margin: 13px 0 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contactUsForm .formControl input{
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #C6C6C6;
+    line-height: 20px;
+}
+
+.contactUsForm .formControl input:focus{
+    border-bottom: none;
+    margin-top: 2px;
+}
+
+.contactUsForm .formControl input::placeholder{
+    font-size: 13px;
+    color: #686868;
+    font-weight: 400;
+}
+
+
+.sendBtn{
+    padding: 7px 70px;
+    border-radius: 50px;
+    background: #F15C27;
+    border: none;
+    color: white;
+    font-weight: 350;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.sendBtn:focus{
+    outline: none;
+}
+
+.requiredText{
+    color: #898989;
+    font-size: 11px;
+}
+
+
